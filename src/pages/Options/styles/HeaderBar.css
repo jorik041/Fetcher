@@ -1,0 +1,6 @@
+.HeaderBar {
+    position: sticky;
+    top: 0;
+    background-color: var(--header-bar-color);
+    z-index: 100;
+}

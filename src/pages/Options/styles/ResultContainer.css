@@ -1,0 +1,68 @@
+.ResultHeaderContainer {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    text-align: center;
+    text-transform: capitalize;
+    margin: 16px;
+}
+
+h2 {
+    margin: 0
+}
+
+.FaviconContainer {
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    flex-direction: row;
+    text-align: center;
+    width: 32px;
+    height: 32px;
+    padding: 2px;
+    margin-right: 0.75rem;
+    border-radius: 8px;
+}
+
+.ActionButton {
+    width: 44px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: 1px solid var(--black);
+    cursor: pointer;
+    transition: box-shadow .2s ease-out,-webkit-box-shadow .2s ease-out;
+    background-color: var(--black);
+}
+
+.rotate {
+    left: -1px;
+    top: 2px;
+    position: relative;
+    transform: rotate(
+            180deg) translateY(4px);
+}
+
+.ResultContainer {
+    max-width: 900px;
+    max-height: 900px;
+    justify-content: center;
+    position: relative;
+    flex-direction: row;
+    flex-shrink: 0;
+    padding: 1.5rem;
+    background-color: var(--white);
+    border-radius: 16px;
+    border: 1px solid transparent;
+    height: auto;
+    display: flex;
+    vertical-align: top;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    white-space: normal;
+    margin-right: 1rem;
+}

@@ -1,0 +1,16 @@
+.Button-Right {
+    right: 0px;
+    z-index: 99;
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+.Button-Left {
+    left: 0px;
+    z-index: 99;
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+

@@ -1,0 +1,75 @@
+{
+  "https://reddit.com": {
+    "name": "Reddit",
+    "classname": "_1oQyIsiPHYt6nx7VOmd1sz _1RYN-7H8gYctjOQeL8p2Q7 scrollerItem",
+    "ignore": {
+      "text": "Promoted"
+    }
+  },
+  "https://reddit.com/r/*": {
+    "name": "Reddit",
+    "classname": "_1oQyIsiPHYt6nx7VOmd1sz",
+    "ignore": {
+      "text": "Promoted"
+    }
+  },
+  "https://instagram.com": {
+    "name": "Instagram",
+    "tagName": "article",
+    "requireLogin": true
+  },
+  "https://linkedin.com/feed": {
+    "name": "Linkedin",
+    "classname": "occludable-update ember-view",
+    "ignore": {
+      "classname": "visually-hidden",
+      "text": "Promoted"
+    },
+    "requireLogin": true
+  },
+  "https://linkedin.com/jobs": {
+    "name": "Linkedin Jobs",
+    "classname": "jobs-job-board-list__item",
+    "requireLogin": true
+  },
+  "https://theguardian.com/uk": {
+    "name": "Guardian UK",
+    "classname": "fc-item fc-item--has-image"
+  },
+  "https://youtube.com": {
+    "name": "Youtube",
+    "tagName": "ytd-rich-item-renderer"
+  },
+  "https://youtube.com/results?search_query=*": {
+    "name": "Youtube",
+    "tagName": "ytd-video-renderer"
+  },
+  "https://wired.com": {
+    "name": "Wired",
+    "classname": "summary-item"
+  },
+  "https://twitter.com": {
+    "name": "Twitter",
+    "tagName": "article",
+    "ignore": {
+      "text": "Promoted"
+    },
+    "requireLogin": true
+  },
+  "https://twitter.com/search?q=*": {
+    "name": "Twitter",
+    "tagName": "article",
+    "ignore": {
+      "text": "Promoted"
+    },
+    "requireLogin": true
+  },
+  "https://news.ycombinator.com": {
+    "name": "Hacker News",
+    "classname": "athing"
+  },
+  "https://ft.com": {
+    "name": "Financial Times",
+    "classname": "grid-item grid-item--span-3"
+  }
+}

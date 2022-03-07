@@ -1,0 +1,53 @@
+.SearchBar {
+    display: flex;
+    flex-direction: row;
+    font-size: 0.875rem;
+    width: 30%;
+    padding: calc(1rem - 1px) calc(1.25rem + 2px);
+    caret-color: var(--caret-color);
+    line-height: calc(1rem + 1px);
+    border-radius: 48px;
+    border: 1px solid var(--border-color);
+    transition: box-shadow 0.2s ease-in-out 0s, border 0.2s ease-in-out 0s;
+    background-color: var(--white);
+    overflow: hidden;
+    height: 1rem;
+    margin: 12px;
+    color: var(--black)
+}
+
+.SearchBarHeaderContainer {
+    display: flex;
+    flex-direction: row;
+}
+
+.LogoContainer {
+    margin: 16px 6px 6px 24px;
+    white-space: nowrap;
+    text-transform: none;
+}
+
+.SearchBarContainer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: flex-start;
+    text-transform: none;
+    font-size: 12px;
+}
+
+.HelperTextNoText {
+    margin-left: 24px;
+    margin-top: 15px;
+}
+
+.HelperText {
+    font-size: 12px;
+    margin-left: 24px;
+}
+
+.Icon {
+    height: 22px;
+    margin: 22px;
+    cursor: pointer;
+}
